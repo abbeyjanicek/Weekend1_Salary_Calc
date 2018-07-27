@@ -1,0 +1,29 @@
+# Weekend Challenge 1: Salary Calculator: Create an application that records employee salaries and adds salaries up to report monthly costs. 
+
+The application should have an input form that collects _employee first name, last name, ID number, job title, annual salary_.
+
+A 'Submit' button should collect the form information, store the information to calculate monthly costs, 
+append information to the DOM and clear the input fields. Using the stored information, 
+calculate monthly costs and append this to the to DOM. If the total monthly cost exceeds $20,000, 
+add a red background color to the total monthly cost.
+
+Create a delete button that removes an employee from the DOM. 
+
+HTML:
+In the content div, I need to: 
+    create 5 input boxes: first, last, ID, title, salary
+    create a button: submit
+    create a table that will hold the info from the input boxes
+
+JS/jQuery: 
+For the input fields & button, I need to:
+    grab the inputs
+    append the results to the table (stretch: alphabetical?)
+    clear the inputs
+    monthly salary: divide the annual salaries by 12
+    total the monthly salaries
+    if total > 20000, turn the monthly cost red
+    delete button to remove employee
+
+
+
