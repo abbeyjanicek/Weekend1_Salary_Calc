@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.employeeInfo{
+    text-align: left
+}
+.footer{
+    text-align: center;
+    background-color: #FF756D;
+    height: 100px;
+    vertical-align: middle;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    background-color: #2A7F99;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.table{
+    box-sizing: border-box;
+    border: 5px black;
+    width: 100%;
+    height: 50px;
+}
+
+firstName{
+
+}
+
+
+a[href^="mailto:"]{ 
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+  }
