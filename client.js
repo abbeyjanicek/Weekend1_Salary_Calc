@@ -4,8 +4,6 @@ $(document).ready(onReady);
 
 function onReady() {
 
-    //Hey jQuery, when I click submit, I need you to grab the info from the input fields and put them in a table below.
-
     $('#submitButton').on('click', addEmployeeInfo);
 }
 
@@ -17,7 +15,7 @@ function addEmployeeInfo() {
     let employeeID = $('#employeeID').val();
     let jobTitle = $('#jobTitle').val();
     let annualSalary = $('#annualSalary').val();
-    
+
     $('#tableFirstName').append('<td></td>', firstName);
     $('#tableLastName').append('<td></td>', lastName);
     $('#tableEmployeeID').append('<td></td>', employeeID);

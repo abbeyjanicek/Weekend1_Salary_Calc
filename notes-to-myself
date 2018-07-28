@@ -11,19 +11,19 @@ Create a delete button that removes an employee from the DOM.
 
 HTML:
 In the content div, I need to: 
-    create 5 input boxes: first, last, ID, title, salary
-    create a button: submit
-    create a table that will hold the info from the input boxes
+    DONE: create 5 input boxes: first, last, ID, title, salary
+    DONE: create a button: submit
+    DONE: create a table that will hold the info from the input boxes
 
 JS/jQuery: 
 For the input fields & button, I need to:
-    grab the inputs
-    append the results to the table (stretch: alphabetical?)
-    clear the inputs
+    DONE: grab the inputs
+    DONE: append the results to the table 
+    DONE: clear the inputs
     monthly salary: divide the annual salaries by 12
     total the monthly salaries
     if total > 20000, turn the monthly cost red
     delete button to remove employee
 
-
-
+Stretch:
+    Alphabetize table entries
