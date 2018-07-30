@@ -24,7 +24,7 @@ For the input fields & button, I need to:
     DONE: total the monthly salaries
     display total monthly salaries
     if total > 20000, turn the monthly cost red
-    delete button to remove employee
+    DONE: delete button to remove employee
 
 Stretch:
     Alphabetize table entries

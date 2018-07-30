@@ -5,7 +5,7 @@ $(document).ready(onReady);
 function onReady() {
 
     $('#submitButton').on('click', addEmployeeInfo);
-    $('.deleteRow').click(function () {
+    $('#deleteRow').click(function () {
         $('tbody').find('input[name="record"]').each(function () {
             if ($(this).is(":checked")) {
                 $(this).parents("tr").remove();
@@ -29,7 +29,6 @@ function onReady() {
         monthlySalary = parseFloat(monthlySalary.toFixed(2));
         totalMonthlySalary = totalMonthlySalary + monthlySalary;
 
-
         //$('#tableFirstName').append('<td></td>', firstName);
         //$('#tableLastName').append('<td></td>', lastName);
         //$('#tableEmployeeID').append('<td></td>', employeeID);
@@ -38,7 +37,9 @@ function onReady() {
         addEmployee = "<tr><td><input type='checkbox' name='record'></td><td>" + firstName + "</td><td>" + lastName + "</td><td>" + employeeID + "</td><td>" + jobTitle + "</td><<td>" + annualSalary + "</td>/tr>";
         $('tbody').append(addEmployee);
 
-        //$('#deleteButton').append('<button></button>');
+        //function totalMonthlySalary (){
+            //$('#totalMonthlySalary').val(totalMonthlySalary);   
+        //}
 
         $('#firstName').val('');
         $('#lastName').val('');
@@ -47,8 +48,7 @@ function onReady() {
         $('#annualSalary').val('');
 
         salaryWarning();
-        //deleteEmployee();
-
+       
         console.log(firstName);
         console.log(lastName);
         console.log(employeeID);
@@ -60,10 +60,7 @@ function onReady() {
 
     function salaryWarning() {
         if (totalMonthlySalary > 20000) {
-            color = "red";
+            //background-color = "red";<--- This is not correct.
             console.log('Your monthly salary total is ' + totalMonthlySalary);
         }
     }
-
-// Find and remove selected table rows
-//
