@@ -22,8 +22,8 @@ For the input fields & button, I need to:
     DONE: clear the inputs
     DONE: monthly salary: divide the annual salaries by 12
     DONE: total the monthly salaries
-    display total monthly salaries
-    if total > 20000, turn the monthly cost red
+    DONE: display total monthly salaries
+    DONE: f total > 20000, turn the monthly cost red
     DONE: delete button to remove employee
 
 Stretch:

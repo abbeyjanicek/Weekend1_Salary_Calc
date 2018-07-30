@@ -1,6 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #75B8CC;
+    background-color: #2A998E;
 }
 
 .button{
@@ -17,7 +17,7 @@ body{
 }
 .footer{
     text-align: center;
-    background-color: #FF756D;
+    background-color: #9F6154;
     height: 100px;
     vertical-align: middle;
     position: fixed;
@@ -27,14 +27,13 @@ body{
 
 .header{
     text-align: center;
-    background-color: #2A7F99;
+    background-color: #2483CC;
     height: 100px;
     vertical-align: middle;
 }
 
 #totalMonthlySalary{
     text-align: right;
-    background-color: white;
     height: 100px;
     vertical-align: middle;
     position: fixed;
