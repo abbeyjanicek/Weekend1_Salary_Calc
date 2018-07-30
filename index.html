@@ -16,7 +16,6 @@
     <div class="header">
         <h1>Employee Salary Calculator</h1>
     </div>
-    <div class="content"></div>
 
     <h4>Add Employee</h4>
     <div id="inputField">
@@ -27,26 +26,27 @@
         <input id="jobTitle" type="text" placeholder="Job Title">
         <input id="annualSalary" type="number" placeholder="Annual Salary">
 
-        <button id="submitButton">Submit</button>
+        <button class="button" id="submitButton">Submit</button>
     </div>
 
     <h4>Employees</h4>
     <div id="table">
-        <table style="width:100%">
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Employee ID</th>
-                <th>Job Title</th>
-                <th>Annual Salary</th>
-            </tr>
-            <tr>
-                <td id="tableFirstName"></td>
-                <td id="tableLastName"></td>
-                <td id="tableEmployeeID"></td>
-                <td id="tableJobTitle"></td>
-                <td id="tableAnnualSalary"></td>
-            </tr>
+        <table>
+            <tbody>
+                <tr>
+                    <th id="removeEmploee">Remove Employee</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Employee ID</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                </tr>
+            </tbody>
+        </table>
+        <button class="button" id="deleteRow">Delete Row</button>
+    </div>
+    <div>
+        <tr id="totalMonthlySalary"><h4>Total Monthly Salary: </h4></tr>
     </div>
 
     <div class="footer">
@@ -56,6 +56,8 @@
                 <a href="mailto:abbey.janicek@gmail.com ">abbey.janicek@gmail.com</a>
             </p>
         </div>
+    </div>
+
 </body>
 
 </html>
