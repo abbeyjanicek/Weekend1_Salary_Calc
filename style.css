@@ -27,7 +27,7 @@ body{
 
 .header{
     text-align: center;
-    background-color: #2483CC;
+    background-color: #FF716D;
     height: 100px;
     vertical-align: middle;
 }
@@ -39,6 +39,8 @@ body{
     position: fixed;
     bottom: 100px;
     width: 100%;
+    margin: 0;
+    background-color: #2483CC;
 }
 table{
     width: 100%;

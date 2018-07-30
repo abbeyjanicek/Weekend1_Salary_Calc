@@ -46,9 +46,13 @@ function addEmployeeInfo() {
 
     //convertCurrency(annualSalary);
 
-    $('#totalMonthlySalary').text('Total Monthly Salary:' + totalMonthlySalary);
+    $('#totalMonthlySalary').text('Total Monthly Salary: ' + totalMonthlySalary);
 
-
+    function convertCurrency() {
+        annualSalary.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+        console.log(annualSalary);
+    }
+    
     salaryWarning();
 
     console.log(firstName);
@@ -58,13 +62,10 @@ function addEmployeeInfo() {
     console.log(annualSalary);
     console.log(monthlySalary);
     console.log(totalMonthlySalary);
-    
+
 }
 
-//function convertCurrency () {
-//annualSalary.toLocaleString('en-US', {style: 'currency', currency: 'USD'});
-//console.log(annualSalary);
-//}
+
 
 function salaryWarning() {
     if (totalMonthlySalary > 20000) {
